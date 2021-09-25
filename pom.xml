@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.julong</groupId>
+	<artifactId>spring-cloud-learn-examples-v2</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<modules>
+		<module>spring-cloud-learn-examples-v2-test</module>
+		<!--站点监控 -->
+		<module>spring-cloud-learn-examples-v2-actuator</module>
+		<!-- 微服务admin 管理服务 -->
+		<module>spring-cloud-learn-examples-v2-admin</module>
+		<module>spring-cloud-learn-examples-v2-admin-client</module>
+		<module>spring-cloud-learn-examples-v2-admin-security</module>
+		<module>spring-cloud-learn-examples-v2-admin-eureka</module>
+		<module>spring-cloud-learn-examples-v2-admin-eureka-client</module>
+		<!-- eureka 发现服务管理 -->
+		<module>spring-cloud-learn-examples-v2-eureka</module>
+		<module>spring-cloud-learn-examples-v2-eureka-client</module>
+		<!-- hystrix 服务熔断 -->
+		<module>spring-cloud-learn-examples-v2-hystrix</module>
+		<module>spring-cloud-learn-examples-v2-hystrix-dashboard</module>
+		<!-- 加入 hystrix eureka 集中管理服务 -->
+		<module>spring-cloud-learn-examples-v2-hystrix-client</module>
+		<module>spring-cloud-learn-examples-v2-hystrix-turbine</module>
+		
+		<!-- swagger 接口api -->
+		<module>spring-cloud-learn-examples-v2-swagger</module>
+  </modules>
+</project>
