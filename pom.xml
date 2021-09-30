@@ -30,6 +30,10 @@
 		<!-- eureka 发现服务管理 -->
 		<module>spring-cloud-learn-examples-v2-eureka</module>
 		<module>spring-cloud-learn-examples-v2-eureka-client</module>
+		<!-- ribbon 客户端负载 -->
+		<module>spring-cloud-learn-examples-v2-ribbon-eureka</module>
+		<module>spring-cloud-learn-examples-v2-ribbon-server</module>
+		<module>spring-cloud-learn-examples-v2-ribbon-client</module>
 		<!-- hystrix 服务熔断 -->
 		<module>spring-cloud-learn-examples-v2-hystrix</module>
 		<module>spring-cloud-learn-examples-v2-hystrix-dashboard</module>
@@ -39,5 +43,35 @@
 		
 		<!-- swagger 接口api -->
 		<module>spring-cloud-learn-examples-v2-swagger</module>
+		<!-- feign 声明式服务调用 -->
+		<module>spring-cloud-learn-examples-v2-feign-eureka</module>
+		<module>spring-cloud-learn-examples-v2-feign-server</module>
+		<module>spring-cloud-learn-examples-v2-feign-client</module>
+		<!-- api 网关 zuul -->
+		<module>spring-cloud-learn-examples-v2-zuul</module>
+		<module>spring-cloud-learn-examples-v2-zuul-eureka</module>
+		<module>spring-cloud-learn-examples-v2-zuul-eureka-client</module>
+		<module>spring-cloud-learn-examples-v2-zuul-client</module>
+		
+		<!-- config 配置中心 -->
+		<module>spring-cloud-learn-examples-v2-config</module>
+		<module>spring-cloud-learn-examples-v2-config-client</module>
+		<module>spring-cloud-learn-examples-v2-config-git</module>
+		<!-- config 配置中心集中管理 -->
+		<module>spring-cloud-learn-examples-v2-config-eureka</module>
+		<module>spring-cloud-learn-examples-v2-config-eureka-client</module>
+		<!-- bus 消息总线服务 -->
+		<module>spring-cloud-learn-examples-v2-bus</module>
+		<module>spring-cloud-learn-examples-v2-bus-eureka</module>
+		<module>spring-cloud-learn-examples-v2-bus-config-eureka</module>
+		<module>spring-cloud-learn-examples-v2-bus-config-eureka-client</module>
+		<!-- 消息驱动微服务 -->
+		<module>spring-cloud-learn-examples-v2-rabbit-stream</module>
+		
+		<!-- 日志跟踪服务 -->
+		<module>spring-cloud-learn-examples-v2-sleuth</module>
+		<module>spring-cloud-learn-examples-v2-sleuth-log4j2</module>
+		<module>spring-cloud-learn-examples-v2-sleuth-zipkin</module>
+
   </modules>
 </project>
